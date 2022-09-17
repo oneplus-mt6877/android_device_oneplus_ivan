@@ -168,6 +168,7 @@ PRODUCT_PACKAGES += \
     init.mt6877.usb.rc \
     init.project.rc \
     init.sensor_2_0.rc \
+    init.recovery.mt6877.rc \
     meta_init.connectivity.common.rc \
     meta_init.connectivity.rc \
     meta_init.modem.rc \
