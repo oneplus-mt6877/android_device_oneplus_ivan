@@ -140,6 +140,7 @@ PRODUCT_PACKAGES += \
     factory_init.project.rc \
     factory_init.rc \
     fstab.mt6877 \
+    fstab.mt6877_ramdisk \
     init.aee.rc \
     init.ago.rc \
     init.cgroup.rc \
