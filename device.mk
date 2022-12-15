@@ -212,6 +212,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.vibrator-service.mediatek
 
+# VNDK
+PRODUCT_PACKAGES += \
+    libutils-v32
+
 # WiFi
 PRODUCT_PACKAGES += \
     wpa_supplicant \
