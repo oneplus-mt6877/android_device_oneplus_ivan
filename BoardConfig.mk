@@ -21,6 +21,10 @@ TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := generic
 TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a55
 
+# Bootloader
+TARGET_BOOTLOADER_BOARD_NAME := oplus6877
+TARGET_NO_BOOTLOADER := true
+
 # Boot Image
 BOARD_KERNEL_BASE := 0x40078000
 BOARD_KERNEL_OFFSET := 0x00008000
@@ -46,6 +50,10 @@ TARGET_KERNEL_CLANG_COMPILE := true
 BOARD_KERNEL_SEPARATED_DTBO := true
 BOARD_INCLUDE_RECOVERY_DTBO := true
 BOARD_KERNEL_IMAGE_NAME := Image.gz
+
+# Platform
+TARGET_BOARD_PLATFORM := mt6877
+BOARD_HAS_MTK_HARDWARE := true
 
 # Inherit the proprietary files
 include vendor/oneplus/ivan/BoardConfigVendor.mk
