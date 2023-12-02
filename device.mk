@@ -92,6 +92,15 @@ PRODUCT_PACKAGES += \
     meta_init.rc \
     ueventd.mt6877.rc
 
+# Power
+PRODUCT_PACKAGES += \
+    android.hardware.power-service-mediatek \
+    vendor.mediatek.hardware.mtkpower@1.0.vendor \
+    vendor.mediatek.hardware.mtkpower@1.1.vendor
+
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/perf,$(TARGET_COPY_OUT_VENDOR)/etc)
+
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 30
 
