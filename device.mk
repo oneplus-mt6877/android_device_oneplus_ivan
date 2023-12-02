@@ -10,6 +10,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.1-service \
+    android.hardware.memtrack@1.0-service \
+    android.hardware.memtrack@1.0-impl \
     android.hardware.graphics.allocator@3.0.vendor \
     android.hardware.graphics.allocator@4.0.vendor \
     libdrm.vendor
