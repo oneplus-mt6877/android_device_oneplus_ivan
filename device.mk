@@ -14,6 +14,7 @@ PRODUCT_PACKAGES += \
     android.hardware.audio.effect@6.0-impl \
     android.hardware.audio.common@6.0-util.vendor \
     android.hardware.audio.service.mediatek \
+    android.hardware.soundtrigger@2.3-impl \
     audio.bluetooth.default \
     android.hardware.bluetooth.audio@2.1-impl \
     libaudiofoundation.vendor \
