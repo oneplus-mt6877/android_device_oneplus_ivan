@@ -154,6 +154,11 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/mediatek
 
+# Thermal
+PRODUCT_PACKAGES += \
+    android.hardware.thermal@2.0-service.mtk \
+    android.hardware.thermal@1.0-impl
+
 # WiFi
 PRODUCT_PACKAGES += \
     wpa_supplicant \
