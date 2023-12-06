@@ -2313,11 +2313,8 @@ odm/etc/sensor/sensor_config.json
 # Sensors
 odm/lib/sensors.virtual.so
 odm/lib64/sensors.virtual.so
-vendor/lib/libsensorndkbridge.so
 vendor/lib/libSensorSave.so
-vendor/lib64/android.hardware.sensors@2.0-ScopedWakelock.so
 vendor/lib64/hw/sensors.mt6877.so
-vendor/lib64/libsensorndkbridge.so
 vendor/lib64/libSensorSave.so
 vendor/lib64/libsensor_custom.so
 
