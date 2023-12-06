@@ -2594,7 +2594,6 @@ vendor/etc/md/cacerts/tls/TH_AIS.crt
 vendor/etc/md/cacerts/tls/USERTrustRSACertificationAuthority.crt
 vendor/etc/MNL_Config.xml
 vendor/etc/mpe.conf
-vendor/etc/mtk_omx_core.cfg
 vendor/etc/nhw
 vendor/etc/security/cacerts/00673b5b.0
 vendor/etc/security/cacerts/04f60c28.0
@@ -2820,7 +2819,6 @@ vendor/lib/libapusys_edma.so
 vendor/lib/libapuwareutils.mtk.so
 vendor/lib/libarmnn_ndk.mtk.so
 vendor/lib/libaurisysdemo.so
-vendor/lib/libavservices_minijail.so
 vendor/lib/libbessound_hd_mtk_vendor.so
 vendor/lib/libblisrc32_vendor.so
 vendor/lib/libbwc.so
@@ -2930,7 +2928,6 @@ vendor/lib/libstagefright_amrnb_common.so
 vendor/lib/libstagefright_enc_common.so
 vendor/lib/libstagefright_flacdec.so
 vendor/lib/libstagefright_softomx.so
-vendor/lib/libstagefright_softomx_plugin.so
 vendor/lib/libstagefright_soft_aacdec.so
 vendor/lib/libstagefright_soft_aacenc.so
 vendor/lib/libstagefright_soft_amrdec.so
