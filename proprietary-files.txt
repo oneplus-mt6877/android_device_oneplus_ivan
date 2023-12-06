@@ -2353,13 +2353,6 @@ vendor/lib64/hw/android.hardware.thermal@2.0-impl.so
 vendor/lib/hw/thermal.mt6877.so
 vendor/lib64/hw/thermal.mt6877.so
 
-# Vibrator
-odm/bin/hw/android.hardware.vibrator-service.mediatek
-odm/etc/init/vibrator-mtk-default.rc
--odm/etc/vintf/manifest/vibrator-mtk-default.xml
-vendor/lib/hw/vibrator.default.so
-vendor/lib64/hw/vibrator.default.so
-
 # WiFi
 vendor/lib64/libwifi-hal.so:vendor/lib64/libwifi-hal-mtk.so
 
