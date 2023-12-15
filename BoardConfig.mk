@@ -37,5 +37,15 @@ BOARD_MKBOOTIMG_ARGS += --dtb_offset $(BOARD_DTB_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOTIMG_HEADER_VERSION)
 BOARD_MKBOOTIMG_ARGS += --board ""
 
+# Kernel
+TARGET_KERNEL_ARCH := arm64
+TARGET_KERNEL_HEADER_ARCH := arm64
+TARGET_KERNEL_SOURCE := kernel/oneplus/ivan
+TARGET_KERNEL_CONFIG := ivan_defconfig
+TARGET_KERNEL_CLANG_COMPILE := true
+BOARD_KERNEL_SEPARATED_DTBO := true
+BOARD_INCLUDE_RECOVERY_DTBO := true
+BOARD_KERNEL_IMAGE_NAME := Image.gz
+
 # Inherit the proprietary files
 include vendor/oneplus/ivan/BoardConfigVendor.mk
